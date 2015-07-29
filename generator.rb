@@ -23,8 +23,8 @@ end
 
 say 'Heroku Rails Application Generator'
 
-# Add Ruby 2.0 to Gemfile
-gsub_file 'Gemfile', /source 'https:\/\/rubygems.org'/, "source 'https://rubygems.org'\nruby '2.0.0'"
+# Add Ruby 2.2 to Gemfile
+gsub_file 'Gemfile', /source 'https:\/\/rubygems.org'/, "source 'https://rubygems.org'\nruby '2.2.0'"
 
 # Add Rack timeout
 gem 'rack-timeout'
